@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>info-256 (1).png</file>
+    <file>info-256.png</file>
+    <file>user-256 (1).png</file>
+    <file>user-256.png</file>
+    <file>menu-4-256 (1).png</file>
+    <file>menu-4-256.png</file>
+    <file>activity-feed-256-W.png</file>
+    <file>analytics-256-W.png</file>
+    <file>close-window-256-W.png</file>
+    <file>home-4-256-W.png</file>
+    <file>low-importance-256-W.png</file>
+    <file>screenshot-256-W.png</file>
+    <file>search-13-256-W.png</file>
+    <file>activity-feed-256.png</file>
+    <file>analytics-256.png</file>
+    <file>close-window-256.png</file>
+    <file>home-4-256.png</file>
+    <file>low-importance-256.png</file>
+    <file>screenshot-256.png</file>
+    <file>search-13-256.png</file>
+    <file>webcam-2-256.png</file>
+  </qresource>
+</RCC>
