@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/webcam-2-256.png</file>
+        <file>icons/home-4-256.png</file>
+        <file>icons/home-4-256-W.png</file>
+        <file>icons/low-importance-256.png</file>
+        <file>icons/low-importance-256-W.png</file>
+        <file>icons/screenshot-256.png</file>
+        <file>icons/screenshot-256-W.png</file>
+        <file>icons/analytics-256.png</file>
+        <file>icons/analytics-256-W.png</file>
+        <file>icons/info-256.png</file>
+        <file>icons/info-256 (1).png</file>
+        <file>icons/close-window-256.png</file>
+        <file>icons/close-window-256-W.png</file>
+        <file>icons/menu-4-256.png</file>
+        <file>icons/menu-4-256 (1).png</file>
+        <file>icons/search-13-256.png</file>
+        <file>icons/search-13-256-W.png</file>
+    </qresource>
+</RCC>
