@@ -16,3 +16,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         super().__init__()
         
         self.setupUi(self)
+
+        self.Home_button.clicked.connect(self.showHomePanel)
+        self.Import_button.clicked.connect(self.showImportPanel)
+    
+    def showHomePanel(self):
+        self.stackedWindows.setCurrentIndex(1)
+
+    def showImportPanel(self):
+        self.stackedWindows.setCurrentIndex(4)
+

@@ -82,7 +82,7 @@ def draw_skeleton_and_angles(frame, keypoints, person_id, angle_data, frame_coun
                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
     cv2.putText(frame, f"{int(left_shoulder_elbow_angle)}°", (int(left_shoulder[0]) - text_offset * 2, int(left_shoulder[1])), 
                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-
+    
 def export_angles_to_pdf(angle_data, filename):
     """Export time-based joint angle graphs for multiple persons."""
     with PdfPages(filename) as pdf:
