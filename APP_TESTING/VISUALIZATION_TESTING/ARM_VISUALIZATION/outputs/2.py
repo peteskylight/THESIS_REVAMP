@@ -83,13 +83,7 @@ while cap.isOpened():
         for r in pose_results:
             if r.keypoints is None:
                 continue
-            if keypoints.shape[0] < 11:
-                if keypoints.ndim == 2 and keypoints.shape[1] == 2:  # Ensure it's (N,2)
-                    keypoints = np.pad(keypoints, ((0, 11 - keypoints.shape[0]), (0, 0)), mode='constant', constant_values=np.nan)
-                else:
-                    print(f"Unexpected keypoints shape: {keypoints.shape}")  # Debugging print
-                    keypoints = np.full((11, 2), np.nan)  # Default to NaN if shape is unexpected
-
+            
             keypoints = r.keypoints.xy.cpu().numpy()
             if keypoints.shape[0] < 11:
                 keypoints = np.pad(keypoints, ((0, 11 - keypoints.shape[0]), (0, 0)), constant_values=np.nan)
